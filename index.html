@@ -34,7 +34,14 @@
     .cta:hover{opacity:.9;transform:translateY(-1px)}
     .cta.alt{background:var(--sage)}
     /* hero */
-    .hero{padding:64px 0 28px;background:linear-gradient(180deg, rgba(107,142,125,.12), rgba(245,245,245,0));}
+    .hero {
+  padding: 64px 0 28px;
+  background-image: url("imagenes/foto1.JPEG.jpeg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+}
     .hero-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:28px;align-items:center}
     .kicker{font-weight:700;color:var(--sage);letter-spacing:.12em;text-transform:uppercase;font-size:12px;margin-bottom:8px}
     .h-title{font-family:Poppins, sans-serif;font-size:42px;line-height:1.12;margin:0 0 10px}
@@ -83,6 +90,7 @@
     </div>
   </header>  <main id="inicio" class="wrap">
     <section class="hero">
+      <h1>Stickers y Etiquetas que evolucionan contigo</h1>
       <div class="hero-grid">
         <div>
           <div class="kicker">Diseño + impresión</div>
@@ -210,4 +218,5 @@
     const msg = encodeURIComponent('Hola, quiero cotizar stickers/etiquetas con KEvo Studio.');
     document.getElementById('waLink').href = `https://wa.me/${phone}?text=${msg}`;
   </script></body>
+
 </html>
