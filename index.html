@@ -1,0 +1,213 @@
+<!DOCTYPE html><html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>KEvo Studio – Stickers y Etiquetas que evolucionan contigo</title>
+  <meta name="description" content="KEvo Studio diseña e imprime stickers y etiquetas personalizadas para negocios y creadores. Entrega rápida, calidad pro y atención cercana.">
+  <meta property="og:title" content="KEvo Studio"/>
+  <meta property="og:description" content="Stickers y etiquetas que evolucionan contigo"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:image" content="/og-image.jpg"/>
+  <meta name="theme-color" content="#1C1C1C"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --charcoal:#1C1C1C;
+      --sage:#6B8E7D;
+      --light:#F5F5F5;
+      --white:#FFFFFF;
+      --maxw:1120px;
+      --radius:16px;
+      --shadow:0 8px 28px rgba(0,0,0,.08);
+    }
+    html,body{margin:0;padding:0;background:var(--light);color:var(--charcoal);} 
+    body{font-family:Lato,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,'Helvetica Neue',Arial,'Noto Sans','Apple Color Emoji','Segoe UI Emoji';}
+    .wrap{max-width:var(--maxw);margin:0 auto;padding:0 20px;}
+    header{position:sticky;top:0;background:rgba(245,245,245,.9);backdrop-filter:saturate(1.2) blur(6px);border-bottom:1px solid #e9e9e9;z-index:20}
+    .nav{display:flex;align-items:center;justify-content:space-between;height:64px}
+    .brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--charcoal)}
+    .logo{display:grid;place-items:center;width:36px;height:36px;border-radius:50%;background:var(--sage);color:#fff;font-weight:700;font-family:Poppins, sans-serif}
+    .brand h1{font-family:Poppins, sans-serif;font-size:18px;letter-spacing:.2px;margin:0}
+    .cta{appearance:none;border:0;background:var(--charcoal);color:#fff;padding:12px 18px;border-radius:12px;font-weight:700;cursor:pointer;transition:.2s;}
+    .cta:hover{opacity:.9;transform:translateY(-1px)}
+    .cta.alt{background:var(--sage)}
+    /* hero */
+    .hero{padding:64px 0 28px;background:linear-gradient(180deg, rgba(107,142,125,.12), rgba(245,245,245,0));}
+    .hero-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:28px;align-items:center}
+    .kicker{font-weight:700;color:var(--sage);letter-spacing:.12em;text-transform:uppercase;font-size:12px;margin-bottom:8px}
+    .h-title{font-family:Poppins, sans-serif;font-size:42px;line-height:1.12;margin:0 0 10px}
+    .h-copy{font-size:18px;opacity:.9;margin:0 0 18px}
+    .hero-card{background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);padding:16px}
+    .hero-badges{display:flex;gap:10px;flex-wrap:wrap;margin-top:8px}
+    .badge{padding:6px 10px;font-size:12px;border-radius:999px;background:#eef1ef}
+    .grid{display:grid;gap:18px}
+    .features{padding:12px 0 36px}
+    .feat{background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);padding:18px}
+    .feat h3{margin:4px 0 8px;font-family:Poppins, sans-serif}
+    .section{padding:36px 0}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .card{background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);padding:18px}
+    .price{font-size:28px;font-weight:700;margin:2px 0}
+    .muted{opacity:.7}
+    .stickers{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+    .ph{height:120px;border-radius:14px;background:repeating-linear-gradient(45deg,#f0f0f0,#f0f0f0 10px,#fafafa 10px,#fafafa 20px);border:1px solid #eee}
+    .faq{display:grid;gap:12px}
+    details{background:#fff;border-radius:12px;box-shadow:var(--shadow);padding:12px}
+    summary{cursor:pointer;font-weight:700}
+    footer{padding:28px 0 56px;border-top:1px solid #e9e9e9}
+    .footergrid{display:grid;grid-template-columns:1fr 1fr;gap:16px;align-items:center}
+    .whatsapp{display:inline-flex;align-items:center;gap:8px;padding:10px 14px;border-radius:999px;background:#25D366;color:#fff;text-decoration:none;font-weight:700}
+    .whatsapp svg{width:18px;height:18px}
+    @media (max-width: 920px){
+      .hero-grid{grid-template-columns:1fr}
+      .cards{grid-template-columns:1fr}
+      .stickers{grid-template-columns:1fr 1fr}
+      .footergrid{grid-template-columns:1fr}
+    }
+  </style>
+  <!-- (Opcional) pega aquí tu código de seguimiento: GA4 o HubSpot tracking -->
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <a class="brand" href="#inicio">
+        <div class="logo">KE</div>
+        <h1>KEvo Studio</h1>
+      </a>
+      <div style="display:flex; gap:10px">
+        <a class="cta alt" href="#servicios">Servicios</a>
+        <a class="cta" href="#contacto">Pide tu diseño</a>
+      </div>
+    </div>
+  </header>  <main id="inicio" class="wrap">
+    <section class="hero">
+      <div class="hero-grid">
+        <div>
+          <div class="kicker">Diseño + impresión</div>
+          <h2 class="h-title">Stickers y etiquetas que evolucionan contigo</h2>
+          <p class="h-copy">Diseñamos, imprimimos y troquelamos stickers y etiquetas para marcas, creadores y motos. Entrega rápida, calidad pro y atención cercana.</p>
+          <div class="hero-badges">
+            <span class="badge">Personalizados</span>
+            <span class="badge">Entrega 24–48h</span>
+            <span class="badge">Resistentes al agua</span>
+          </div>
+          <div style="margin-top:16px; display:flex; gap:10px; flex-wrap:wrap">
+            <a class="cta" href="#contacto">Cotizar ahora</a>
+            <a class="cta alt" href="#portafolio">Ver ejemplos</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <strong>Paquetes rápidos</strong>
+          <div class="grid" style="grid-template-columns:1fr 1fr; margin-top:10px">
+            <div class="card"><div class="muted">Stickers jóvenes</div><div class="price">$80</div><div class="muted">Set de 10</div></div>
+            <div class="card"><div class="muted">Etiquetas negocio</div><div class="price">$120</div><div class="muted">Hoja A4 / 24 pzs</div></div>
+          </div>
+          <p class="muted" style="margin:10px 0 0">*Precios de referencia; personalizamos tamaños y cantidades.</p>
+        </div>
+      </div>
+    </section><section id="servicios" class="section">
+  <h2 class="kicker">Servicios</h2>
+  <div class="features grid" style="grid-template-columns:repeat(3,1fr)">
+    <div class="feat">
+      <h3>Stickers personalizados</h3>
+      <p>Diseños temáticos, nombre, club o logo. Impresión + laminado para mayor durabilidad.</p>
+    </div>
+    <div class="feat">
+      <h3>Etiquetas para negocios</h3>
+      <p>Logo, ingredientes, fechas y QR. Tirajes pequeños con entrega rápida.</p>
+    </div>
+    <div class="feat">
+      <h3>Stickers para moto</h3>
+      <p>Vinil imprimible + mica protectora. Resistencia a agua, sol y gasolina.</p>
+    </div>
+  </div>
+</section>
+
+<section id="portafolio" class="section">
+  <h2 class="kicker">Portafolio (placeholders)</h2>
+  <div class="stickers">
+    <div class="ph"></div>
+    <div class="ph"></div>
+    <div class="ph"></div>
+    <div class="ph"></div>
+  </div>
+  <p class="muted" style="margin-top:10px">Reemplaza estos cuadros por tus fotos reales (tazas, libretas, cascos, etc.).</p>
+</section>
+
+<section id="precios" class="section">
+  <h2 class="kicker">Paquetes sugeridos</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Pack Joven</h3>
+      <div class="price">$80</div>
+      <p>Set 10 stickers (5 cm). Temáticos o con tu nombre.</p>
+    </div>
+    <div class="card">
+      <h3>Pack Negocio</h3>
+      <div class="price">$120</div>
+      <p>Hoja A4 con 24 etiquetas (5 cm). Incluye ajuste de logo/QR.</p>
+    </div>
+    <div class="card">
+      <h3>Pack Moto</h3>
+      <div class="price">$150</div>
+      <p>Set de 3 stickers troquelados con mica protectora.</p>
+    </div>
+  </div>
+  <p class="muted" style="margin-top:8px">*Personalizamos tamaños, formas y cantidades. Pide tu cotización.</p>
+</section>
+
+<section id="faq" class="section">
+  <h2 class="kicker">Preguntas frecuentes</h2>
+  <div class="faq">
+    <details><summary>¿Hacen diseños desde cero?</summary><p>Sí. Podemos partir de tu idea o referencia y crear el arte final listo para imprimir.</p></details>
+    <details><summary>¿Cuánto tardan?</summary><p>Pedidos estándar: 24–48h. Volúmenes grandes: lo acordamos al cotizar.</p></details>
+    <details><summary>¿Resisten agua y sol?</summary><p>Usamos vinil imprimible y opcionalmente mica protectora para mayor durabilidad.</p></details>
+  </div>
+</section>
+
+<section id="contacto" class="section">
+  <h2 class="kicker">Cotiza ahora</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>WhatsApp</h3>
+      <p>Responderemos rápido con opciones y tiempos.</p>
+      <a class="whatsapp" id="waLink" href="#">
+        <svg viewBox="0 0 32 32" fill="currentColor" aria-hidden="true"><path d="M19.11 17.11c-.26-.13-1.53-.76-1.77-.85-.24-.09-.42-.13-.6.13-.18.26-.69.85-.85 1.02-.16.18-.31.2-.57.07-.26-.13-1.09-.4-2.07-1.28-.77-.69-1.28-1.53-1.43-1.79-.15-.26-.02-.4.11-.53.11-.11.26-.29.38-.44.13-.15.17-.26.26-.44.09-.18.04-.33-.02-.46-.07-.13-.6-1.44-.82-1.98-.22-.53-.44-.46-.6-.46h-.51c-.18 0-.46.07-.69.33-.24.26-.91.89-.91 2.17 0 1.29.93 2.53 1.06 2.7.13.18 1.83 2.79 4.43 3.91.62.27 1.11.43 1.49.55.63.2 1.2.17 1.65.1.5-.07 1.53-.62 1.75-1.23.22-.6.22-1.11.15-1.23-.07-.11-.24-.18-.5-.31z"/></svg>
+        Escribir por WhatsApp
+      </a>
+    </div>
+    <div class="card">
+      <h3>Formulario</h3>
+      <p>Describe lo que necesitas y adjunta tu logo (si tienes).</p>
+      <!-- ⚠️ Si usas HubSpot: pega aquí el embed de tu formulario.  Ejemplo:  <script charset="utf-8" type="text/javascript" src="//js-na1.hsforms.net/forms/embed/v2.js"></script><script>hbspt.forms.create({ portalId:"XXXXXX", formId:"YYYYYY" });</script>  -->
+      <form onsubmit="alert('¡Gracias! Te contactaremos muy pronto.'); return false;">
+        <label>Nombre<br><input required type="text" style="width:100%;padding:12px;border:1px solid #ddd;border-radius:10px"></label>
+        <label>Email o WhatsApp<br><input required type="text" style="width:100%;padding:12px;border:1px solid #ddd;border-radius:10px"></label>
+        <label>Mensaje<br><textarea required rows="4" style="width:100%;padding:12px;border:1px solid #ddd;border-radius:10px"></textarea></label>
+        <button class="cta" type="submit">Enviar</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+  </main>  <footer>
+    <div class="wrap footergrid">
+      <div>
+        <strong>KEvo Studio</strong><br>
+        <span class="muted">Stickers y etiquetas que evolucionan contigo.</span>
+      </div>
+      <div style="justify-self:end">
+        <a class="cta alt" href="#inicio">Subir ↑</a>
+      </div>
+    </div>
+    <div class="wrap" style="margin-top:8px"><span class="muted">© <span id="year"></span> KEvo Studio · Hecho en México</span></div>
+  </footer>  <script>
+    // Rellena año y WhatsApp link rápido (pon tu número en formato internacional sin +)
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const phone = '521234567890'; // ← reemplaza con tu número (52 = México)
+    const msg = encodeURIComponent('Hola, quiero cotizar stickers/etiquetas con KEvo Studio.');
+    document.getElementById('waLink').href = `https://wa.me/${phone}?text=${msg}`;
+  </script></body>
+</html>
