@@ -73,6 +73,31 @@
       .stickers{grid-template-columns:1fr 1fr}
       .footergrid{grid-template-columns:1fr}
     }
+    .hero {
+  position: relative;
+  background: url('imagenes/WhatsApp Image 2025-08-17 at 5.52.02 PM (4).jpg') no-repeat center center/cover;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.5); /* oscurece la imagen */
+  z-index: 1;
+}
+
+.hero * {
+  position: relative;
+  z-index: 2;
+}
   </style>
   <!-- (Opcional) pega aquí tu código de seguimiento: GA4 o HubSpot tracking -->
 </head>
@@ -220,3 +245,4 @@
   </script></body>
 
 </html>
+
